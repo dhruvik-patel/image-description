@@ -1,0 +1,36 @@
+<div class='heading'>
+    <img height="100px" src="./static/logo.png" alt="Logo" />
+    <h3>Image Description Generator</h3>
+</div>
+<div class="everything">
+    <br>
+    <form action="/results" id='my-form' method="POST" enctype="multipart/form-data">
+        <div class="drop-zone" id='drop-box'>
+            <span class="drop-zone__prompt">
+                <div class="temp">
+                    <label for="myfile">Click To Upload</label>
+                </div>
+
+            </span>
+            <input type="file" id="myfile" onchange="showMyImage(this)" name="myfile" accept="image/*"
+                class="drop-zone__input"><br><br>
+        </div>
+    </form>
+
+    <div class='my-img'>
+        <img id="show-image" src="" alt="image is loading" />
+    </div>
+    <br>
+    <div class="loader" id="loader"></div>
+    <p id='desc'></p>
+
+    <div class="btns">
+        <button type="button" class="buttons" onclick="predict()">Generate Description</button>
+        <button type="button" class="buttons" onclick="audio()">Play me</button>
+        <button type="button" class="buttons" onclick="refresh()">Upload Other Image</button>
+        <button type="button" class="buttons" onclick="search()">Search</button>
+    </div>
+    <div class='credits'>
+        <p>Made with <span style="color: #c40808;">❤</span> by Dhruvik, Dhaval and Harsh</p>
+    </div>
+</div>

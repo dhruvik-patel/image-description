@@ -1,0 +1,8 @@
+numpy==1.19.5
+Pillow==8.1.2
+Keras==2.4.3
+Flask==1.1.2
+matplotlib==3.3.4
+tensorflow-cpu==2.4.1
+h5py==2.10.0
+gunicorn

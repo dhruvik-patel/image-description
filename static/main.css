@@ -1,0 +1,225 @@
+body{
+    background-image: url("back.jpg");
+    font-family: sans-serif;
+}
+
+.heading{
+    font-family: sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    color: #4E4D4D;
+}
+.heading img{
+    height: 15vh
+}
+
+.everything
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone {
+    width: 30vw;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.temp
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #4E4D4D;
+    transform: translate(-50%,-50%);
+}
+
+.temp label{
+    padding:10vh 10vw;
+    border: #0D986A dashed medium;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+  padding: 60px 0;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+#show-image{
+    width:100%;
+    max-width: 200px;
+    display:none;
+}
+
+#desc
+{
+    font-family:'Roboto', 'Noto', sans-serif;
+    text-transform: uppercase;
+    color: #4E4D4D;
+    /* text-shadow: 0px 2px 5px #4E4D4D; */
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons
+{
+    background-color: #0D986A;
+    border: none;
+    color: #E8FBE8;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 1vh 1vw;
+    outline: none;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+    border-radius: 32px;
+}
+
+.buttons:hover
+{
+    background-color: #E8FBE8;
+    border: 1px solid #0D986A;
+    color: #0D986A;
+    padding: 6px 14px;
+}
+
+.button-group
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.btns
+{
+    text-align: center;
+}
+.credits{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-size: smaller;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*----------------------------------------------Loading Bar----------------------*/
+.loader {
+    border: 5px solid white;
+    border-radius: 50%;
+    border-top: 5px solid #0D986A;
+    /* border-bottom: 5px solid red; */
+    width: 20px;
+    height: 20px;
+    margin-top: 2vh;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display: none;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* -------------------------------------------------MOBILE VIEW--------------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .everything
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        font-family: sans-serif;
+    }
+    .drop-zone 
+    {
+        width: 50vw;
+        height: 20vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .temp label{
+        padding:40% 30%;
+        border: #0D986A dashed medium;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 2vw;
+    }
+    .buttons
+    {
+        background-color: #0D986A;
+        border: none;
+        color: #E8FBE8;
+        padding: 7px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2vw;
+        margin: 1vh 1vw;
+    }
+    .temp label{
+    padding:10vh 5vw;
+    border: #0D986A dashed medium;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1vw;
+}
+    .btns
+    {
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+    }
+    .credits{
+        padding-top: 2vh;
+        position: relative;
+        font-size: smaller;
+        text-align: center;
+        width: 100%;
+    }
+}
