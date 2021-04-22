@@ -78,15 +78,3 @@ ix_details = x_interpreter.get_input_details()
 ox_details = x_interpreter.get_output_details()
 ix_index = ix_details[0]['index']
 ox_index = ox_details[0]['index']
-
-
-
-# import os
-# ch = 'y'
-# while True:
-#     path = input('Directory Path : ')
-#     if path=='n':
-#         break
-#     for filename in os.listdir(path):
-#         if filename.endswith(".jpg") or filename.endswith(".jfif"):
-#             print(filename + ' : ', predict(os.path.join(path, filename)).replace('start','').replace('end',''))
