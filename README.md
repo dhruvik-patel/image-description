@@ -1,4 +1,4 @@
-
+﻿
 
 # Image Description
 
@@ -100,3 +100,17 @@ Image Description refers to the process of generating meaningful description fro
 - Test the project :
 
 > Go to localhost:9999 in your browser.
+
+
+## Output
+
+![Output 1](docs/op1.png)
+
+![Output 2](docs/op2.png)
+
+
+## Creater
+
+ - Dhaval Jotaneeya : [@Dhaval-Jotaneeya](https://github.com/Dhaval-Jotaneeya)
+ - Harsh Patel : [@limbaniharsh](https://github.com/limbaniharsh)
+ - Dhruvik Patel : [@dhruvik-patel](https://github.com/dhruvik-patel)
