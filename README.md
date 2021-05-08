@@ -1,4 +1,4 @@
-﻿
+
 
 # Image Description
 
@@ -14,7 +14,7 @@
 
   
 
-Image Description refers to the process of generating meaningful description from images based on objects and activities detected in the images.
+Image Description refers to the process of generating meaningful descriptions from images based on objects and activities detected in the images.
 
   
 
@@ -109,7 +109,7 @@ Image Description refers to the process of generating meaningful description fro
 ![Output 2](docs/op2.png)
 
 
-## Creater
+## Creators
 
  - Dhaval Jotaneeya : [@Dhaval-Jotaneeya](https://github.com/Dhaval-Jotaneeya)
  - Harsh Patel : [@limbaniharsh](https://github.com/limbaniharsh)
