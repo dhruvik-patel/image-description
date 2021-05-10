@@ -2,17 +2,13 @@
 
 # Image Description
 
-<center>
 
+<div align="center">
   
+  ![ID logo](docs/logo.svg)
 
-![ID logo](docs/logo.svg)
+</div>
 
-  
-
-</center>
-
-  
 
 Image Description refers to the process of generating meaningful descriptions from images based on objects and activities detected in the images.
 
@@ -41,6 +37,7 @@ Image Description refers to the process of generating meaningful descriptions fr
 - Layers : 12
 
   
+<br />
 
 ### Model Architecture :
 
@@ -50,7 +47,7 @@ Image Description refers to the process of generating meaningful descriptions fr
 >  ![Model](docs/model.png)
 
   
-
+<br />
   
 
 ## To run this project on local machine
@@ -102,11 +99,25 @@ Image Description refers to the process of generating meaningful descriptions fr
 > Go to localhost:9999 in your browser.
 
 
+<br />
+
+
+## Live Version
+
+> You can see it on *https://id-dhruvik.herokuapp.com/*
+
+
+<br />
+
+
 ## Output
 
 ![Output 1](docs/op1.png)
 
 ![Output 2](docs/op2.png)
+
+
+<br />
 
 
 ## Creators
