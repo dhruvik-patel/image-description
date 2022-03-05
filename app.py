@@ -24,4 +24,4 @@ def refresh():
 
 
 if __name__ == "__main__":
-    app.run("localhost", "9999", debug=True, threaded=False)
+    app.run("0.0.0.0", "9999", debug=True, threaded=False)
