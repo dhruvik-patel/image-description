@@ -104,7 +104,7 @@ Image Description refers to the process of generating meaningful descriptions fr
 
 ## Live Version
 
-> You can see it on *https://id-dhruvik.herokuapp.com/*
+> You can see it on *https://img-descriptor.herokuapp.com/*
 
 
 <br />
