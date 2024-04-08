@@ -125,3 +125,4 @@ Image Description refers to the process of generating meaningful descriptions fr
  - Dhaval Jotaneeya : [@Dhaval-Jotaneeya](https://github.com/Dhaval-Jotaneeya)
  - Harsh Patel : [@limbaniharsh](https://github.com/limbaniharsh)
  - Dhruvik Patel : [@dhruvik-patel](https://github.com/dhruvik-patel)
+ - Hardik Gohil : [@gohilhardik73253](https://github.com/gohilhardik73253)
